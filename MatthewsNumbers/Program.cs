@@ -29,6 +29,7 @@ namespace MatthewsNumbers
         static void Main(string[] args)
         {
             Console.WriteLine("Matthew's Numbers");
+            Console.WriteLine("-----------------");
             Console.WriteLine();
             Console.WriteLine("How many possible graphic screens are there");
             Console.WriteLine("in the Tandy 1000 SX mode: 320x200x16 colors?");
