@@ -22,13 +22,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Numerics; // requires adding System.Numerics reference to project
 
-namespace MatthewsNumber
+namespace MatthewsNumbers
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Matthew's Number");
+            Console.WriteLine("Matthew's Numbers");
             Console.WriteLine();
             Console.WriteLine("How many possible graphic screens are there");
             Console.WriteLine("in the Tandy 1000 SX mode: 320x200x16colors?");
