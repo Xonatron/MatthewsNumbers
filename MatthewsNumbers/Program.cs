@@ -1,9 +1,9 @@
-﻿// ----------------
+﻿// ---------------------
 // Matthew's Number
-// ----------------
+// ---------------------
 // By: Matthew Doucette
 // Date: Jan. 12th, 2019
-// ----------------
+// ---------------------
 //
 // Matthew's Number is the calculation of how many possible graphic screens exist.
 // Starting with the popular Tandy 1000 SX mode: 320x200x16colors
@@ -18,9 +18,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics; // requires adding System.Numerics reference to project
 using System.Text;
 using System.Threading.Tasks;
-using System.Numerics; // requires adding System.Numerics reference to project
 
 namespace MatthewsNumbers
 {
@@ -31,7 +31,7 @@ namespace MatthewsNumbers
             Console.WriteLine("Matthew's Numbers");
             Console.WriteLine();
             Console.WriteLine("How many possible graphic screens are there");
-            Console.WriteLine("in the Tandy 1000 SX mode: 320x200x16colors?");
+            Console.WriteLine("in the Tandy 1000 SX mode: 320x200x16 colors?");
             Console.WriteLine();
             Console.WriteLine("16^(320x200) = ???");
             Console.WriteLine();
